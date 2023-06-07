@@ -1,0 +1,34 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "build": "expo build:android",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^44.0.0",
+      "expo-linear-gradient": "^10.0.3",
+      "expo-splash-screen": "~0.16.1",
+      "node-fetch": "^2.6.1",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.65.1",
+      "react-native-chart-kit": "^6.2.0",
+      "react-native-gesture-handler": "^1.10.3",
+      "react-native-performance-monitor": "^0.3.0",
+      "react-native-reanimated": "^2.2.0",
+      "react-native-safe-area-context": "^3.3.2",
+      "react-native-screens": "^3.9.1",
+      "react-native-table-component": "^1.2.1",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.15.5",
+      "babel-preset-expo": "^9.0.2"
+    }
+  }
